@@ -60,3 +60,4 @@ class Clientes:
             writer = csv.writer(fichero, delimiter=';')
             for cliente in Clientes.lista:
                 writer.writerow((cliente.dni, cliente.nombre, cliente.apellido))
+                

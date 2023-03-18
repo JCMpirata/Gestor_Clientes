@@ -71,3 +71,5 @@ def iniciar():
             break
 
         input("\nPresiona ENTER para continuar...")
+
+# py run.py -t 
